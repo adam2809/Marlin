@@ -700,6 +700,8 @@
   #warning "Don't forget to update your TFT settings in Configuration.h."
 #endif
 
+#define NO_CREALITY_422_MCU_WARNING
+#define NO_CREALITY_422_DRIVER_WARNING
 #if ENABLED(EMIT_CREALITY_422_WARNING)
   #if DISABLED(NO_CREALITY_422_MCU_WARNING)
     #warning "Double-check your 4.2.2 board for STM32 / GD32. Use BOARD_CREALITY_V422 or BOARD_CREALITY_V422_GD32_MFL as appropriate for your MCU."
